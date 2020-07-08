@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
   hash.each_with_object({}) do |(k,v),a|
     v.each do |k,v|
       v.each do |n|
+        
+      end
     end
     a
   end
