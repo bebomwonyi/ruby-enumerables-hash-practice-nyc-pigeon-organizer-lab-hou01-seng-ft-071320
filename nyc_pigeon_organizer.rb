@@ -6,11 +6,12 @@ def nyc_pigeon_organizer(data)
       nn.each do |nn|
         if !a[nn]
           a[nn]={}
+        end
+        if !a[nn][k]
+          !a[nn][k]=[]
+        end
+        a[nn][k].push(kk.to_s)
       end
-      if !a[nn][k]
-        !a[nn][k]=[]
-      end
-      a[nn][k].push(kk.to_s)
     end
   end
 end
