@@ -1,8 +1,10 @@
+
+
 def nyc_pigeon_organizer(data)
   # write your code here!
   answer = data.each_with_object({}) do |(k,v),a|
     v.each do |kk,nn|
-      v.each do |nn|
+      nn.each do |nn|
         if !a[nn]
           a[nn]={}
       end
@@ -11,7 +13,5 @@ def nyc_pigeon_organizer(data)
       end
       a[nn][k].push(kk.to_s)
     end
-    a
   end
-  return a
 end
