@@ -4,8 +4,9 @@ def nyc_pigeon_organizer(data)
     v.each do |k,v|
       v.each do |n|
         if a[n]
-          a
+          a[n]={}
       end
+      
     end
     a
   end
