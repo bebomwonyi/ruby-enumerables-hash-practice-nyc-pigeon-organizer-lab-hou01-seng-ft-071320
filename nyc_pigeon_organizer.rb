@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       if !a[n][k]
         !a[n][k]=[]
       end
-      
+      a[n][k].push()
     end
     a
   end
