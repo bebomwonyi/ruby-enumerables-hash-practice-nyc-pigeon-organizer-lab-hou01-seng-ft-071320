@@ -13,4 +13,5 @@ def nyc_pigeon_organizer(data)
     end
     a
   end
+  return a
 end
