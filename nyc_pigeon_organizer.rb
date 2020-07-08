@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
           a[n]={}
       end
       if !a[n][k]
+        !a[n][k]=[]
     end
     a
   end
